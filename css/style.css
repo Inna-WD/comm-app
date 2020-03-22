@@ -13,15 +13,16 @@ html, body {
     font-family: system-ui;
     /* font-weight: 200; */
     color: #3e5869; 
+    background-color: var(--secondary-text-color);
 }
 
 #root {
     height: 100%;
 }
-
+/* 
 .app {
     height: calc(100% - 100px); 
-}
+} */
 
 .title {
     display: flex;
@@ -49,24 +50,26 @@ html, body {
     color: var(--secondary-color);
     padding: 4px 8px;
     border-radius: 8px;
-    border: 2px solid var(--main-color);
+    border: 1px solid var(--secondary-color);
     position: absolute;
     left: 0px;
     max-width:300px;
     margin: auto;
-
-
 }
-
+.time_stamp1 {
+    margin: 15px 0;
+    font-size: 9px;
+    color: (--main-text-color);
+    opacity: 0.9;
+    margin-top: 9px;
+}
 .message_user2 {
     margin: 15px 0;
     font-size: 11px;
     color: var(--main-text-color);
     opacity: 0.9;
     margin-bottom: 6px;
-    align-text: right;
-    /* position: absolute;
-    right: 0px; */
+   text-align: right;
  
 }
 .message_content2 {
@@ -74,12 +77,20 @@ html, body {
     color: var(--main-color);
     padding: 4px 8px;
     border-radius: 8px;
-    border: 2px solid var(--main-color);
+    border: 1px solid var(--main-color);
     position: absolute;
     right: 0px;
     max-width:300px;
     margin: auto;
+}
 
+.time_stamp2 {
+    margin: 15px 0;
+    font-size: 9px;
+    color: (--main-text-color);
+    opacity: 0.9;
+    margin-top: 9px;
+    text-align: right;
 }
 /* *************************************************************************************** */
 /* SEND MESSAGE form */
