@@ -1,24 +1,3 @@
-:root {
---main-color: #5ea3d0;
---secondary-color: white;
---main-text-color: #3e5869;
---secondary-text-color: #b0c7d6;
---send-message-form: #F5F5F5;
- --animations: 0.3s;
-}
-
-html, body {
-height: 100%;
-margin: 0;
-padding: 0;
-font-family: system-ui;
-/* font-weight: 200; */
-color: #3e5869; 
-background-color: var(--secondary-text-color);
-}
-
-/* *************************************************************************************** */
-/*  HEADER  */
 .header {
     background-color: var(--main-color);
     width: 100%;
@@ -27,7 +6,6 @@ background-color: var(--secondary-text-color);
     display: grid;
     grid-template-columns: repeat(3, 1fr);;
 }
-
 .navbar {
     margin: 0;
     list-style-type: none;
@@ -37,10 +15,10 @@ background-color: var(--secondary-text-color);
 }
 
 .logoPlace {
-/* grid-area: logo;
-text-align: center;
-padding-top: 0.1em; */
-text-decoration: none;
+    /* grid-area: logo;
+    text-align: center;
+    padding-top: 0.1em; */   
+    text-decoration: none;
 }
 
 .logo {
@@ -48,7 +26,6 @@ text-decoration: none;
     max-height: 35px;
     align-self: center;
 }
-
 
 .title {
     /* vertical-align: bottom;
@@ -79,6 +56,7 @@ text-decoration: none;
     text-decoration: none;
     color: var(--secondary-text-color);
 }
+
 .menu-item{
     /* vertical-align: bottom; */
     justify-self: center;
@@ -105,6 +83,7 @@ text-decoration: none;
   
 /* *************************************************************************************** */
 /*  MESSAGE form */
+
 .main_layout {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -132,7 +111,6 @@ text-decoration: none;
     opacity: 0.9;
 }
 
-
 .message_content1 {
     grid-row: 2;
     grid-column: 1;
@@ -149,7 +127,6 @@ text-decoration: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .time_stamp1 {
     grid-row: 3;
     grid-column: 1;
@@ -157,6 +134,7 @@ text-decoration: none;
     color: var(--main-text-color);
     opacity: 0.9;    
 }
+
 .message_user2 {
     grid-row: 1;
     grid-column: 2;
@@ -192,6 +170,10 @@ text-decoration: none;
     opacity: 0.9;
 }
 
+
+
+/* *************************************************************************************** */
+/* SEND MESSAGE form */
 
 .send_form {
     display: grid;
