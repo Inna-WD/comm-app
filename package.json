@@ -1,0 +1,20 @@
+{
+  "name": "comm-app-4",
+  "version": "1.0.0",
+  "description": "- Inna ([@Inna](https://github.com/Inna-WD))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inna-WD/comm-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inna-WD/comm-app/issues"
+  },
+  "homepage": "https://github.com/Inna-WD/comm-app#readme"
+}
