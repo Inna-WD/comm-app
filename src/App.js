@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './src/components/Header/Header';
-import Messenger from './src/components/Messenger/Messenger';
+import Header from './components/Header/Header';
+import Messenger from './components/Messenger/Messenger';
 
 function App() {
   return (
